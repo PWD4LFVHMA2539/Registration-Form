@@ -29,8 +29,11 @@
 
     <div class="container"> 
     <span class="titletext">Title</span>
-    <div class="smallbox"></div>
-    <div class="smallbox"></div><span class="explanation">Ms</span>
+        <br>
+        <input type="checkbox" value="mr">
+        <label for="vehicle1"> Mr</label><br>
+        <input type="checkbox" value="ms">
+        <label for="vehicle2"> Ms</label><br>
     </div>
 <!---contacts -->
     <div class="Contacts">
@@ -45,69 +48,58 @@
     </div>
 <!---connections -->
     <div class="connection">
-        <span class="Editnames">Vutivi I Ndzhaka Village Connection</span>
-        <pre></pre>
-        <li><h3>Choose here</h3></li>
-        <ul>
-            <li>Mafarana Village</li>
-            <li>Bonn Village</li>
-            <li>Sedan Village</li>
-            <li>Mulati Village</li>
-            <li>Ntsako Village</li>
-        </ul>
+        <p>Vutivi I Ndzhaka Village Connection</p>
+
+        <form >
+        <label for="villages">Choose a village:</label>
+        <select name="villages" id="villages">
+            <option value="volvo">Mafarana Village</option>
+            <option value="saab">Bonn Village</option>
+            <option value="opel">Sedan Village</option>
+            <option value="audi">Mulati Village</option>
+        </select>
+        <br><br>
+        
+        </form>
     </div>
 <!---schools -->
     <div class="School">
-        <span class="Editnames">School attended/ Attending ?</span>
-        <ol>
-            <li>Professor Shiluvane High School</li><br>
-            <li>Sedan Senior Sec. School</li><br>
-            <li>Cata HIgh School</li><br>
-            <li>Scotch Maboko High School</li><br>
-
-        </ol> 
+        <label for="school">School attended/Attending?</label>
+        <select id="school" name="school">
+        <option value="shiluvane">Professor Shiluvane High School</option>
+        <option value="sedan">Sedan Senior Sec. School</option>
+        <option value="cata">Cata High School</option>
+        <option value="scotch">Scotch Maboko High School</option>
+        </select>
     </div>
     <!---get invovled -->
     <div class="Involved">
-        <span class="Editnames"> Get Involved</span>
-        <ol>
-            <li>Become a Mentor</li><br>
-            <li>Become a Mentee</li><br>
-            <li>Become a Member</li><br>
+        <label for="involvement">Get Involved</label>
+        <select id="involvement" name="involvement">
+        <option value="mentor">Become a Mentor</option>
+        <option value="mentee">Become a Mentee</option>
+        <option value="member">Become a Member</option>
+        </select>
 
-        </ol> 
     </div>
 <!---grades -->
     <div class="Grade">
-        <span class="Editnames"> Grade</span><pre></pre>
-        <span class="Editnames">Please note that this section is not required if it does not apply to you</span>
-        <ol>
-            <li>Grade 9</li><br>
-            <li>Grade 10</li><br>
-            <li>Grade 11</li><br>
-            <li>Grade 12</li><br>
-            <li>Other</li><br>
-        </ol>
+        <label for="grade">Grade</label>
+        <select id="grade" name="grade">
+        <option value="grade9">Grade 9</option>
+        <option value="grade10">Grade 10</option>
+        <option value="grade11">Grade 11</option>
+        <option value="grade12">Grade 12</option>
+        <option value="other">Other</option>
+        </select>
     </div>
     <!---Title -->
 <div class="Consent">
-<p class="lastp">"I, the undersigned, declare that I will serve the organization to the best of my ability and be governed by its constitution. I also declare that I will not engage in any activity that could bring disrepute to the organization or tarnish its reputation. I hereby acknowledge that the management committee has the right to terminate my membership if it deems necessary."</p>
-    <div class="smallbox"></div>
+
+<input type="checkbox" value="oath">
+  <label for="vehicle2"> I, the undersigned, declare that I will serve the organization to the best of my ability and be governed by its constitution. I also declare that I will not engage in any activity that could bring disrepute to the organization or tarnish its reputation. I hereby acknowledge that the management committee has the right to terminate my membership if it deems necessary.</label><br>
 </div>
 
-<div class="dropdown">
-    <button>Choose</button>
-    <div class="dropdown-content">
-        <ul>
-            <li>Mafarana</li>
-            <li>Bonn </li>
-            <li>Sedan</li>
-            <li>Mulati</li>
-            <li>Ntsako</li>
-        </ul>
-    </div>
-</div>
-
-
+<input type="submit" value="Submit">
 </body>
 </html>
